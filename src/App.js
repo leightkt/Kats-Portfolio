@@ -1,23 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import coverPhoto from './assets/cover.jpg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img className="cover-photo" src={coverPhoto} alt="a human queer human in a floral shirt and brown hat with fall mountains in the background" />
     </div>
   );
 }
