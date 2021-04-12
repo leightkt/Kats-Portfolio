@@ -1,0 +1,8 @@
+nav {
+    padding: 2rem;
+    margin: 2rem;
+}
+
+nav > p {
+    font-size: 5rem;
+}
