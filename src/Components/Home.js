@@ -4,8 +4,8 @@ import coverPhoto from '../assets/cover.jpg'
 function Home () {
 
     return (
-        <div>
-            <section>
+        <div className="home">
+            <section className="greeting-text">
                 <p>Hi.</p>
                 <p>I'm Kat.</p>
             </section>

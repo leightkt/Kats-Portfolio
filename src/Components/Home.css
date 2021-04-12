@@ -1,7 +1,19 @@
 .cover-photo {
     width: 43rem;
-    position: absolute;
-    right: 5rem;
-    top: 5rem;
     border-radius: 0.5rem;
+}
+
+.home {
+    display: flex;
+    margin: 5rem 2rem 2rem 2rem;
+    justify-content: space-between;
+}
+
+.greeting-text {
+    padding: 2rem;
+    margin: 6rem 6rem 2rem -3rem;
+}
+
+.greeting-text > p {
+    font-size: 5rem;
 }

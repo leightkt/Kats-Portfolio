@@ -2,11 +2,11 @@ nav {
     padding: 3rem;
     margin: 5rem 2rem 2rem 2rem;
     border: 1px solid black;
-    width: 30rem;
+    width: 20rem;
     height: 51rem;
     border-radius: 0.5rem;
 }
 
 nav > p {
-    font-size: 5rem;
+    font-size: 4rem;
 }
