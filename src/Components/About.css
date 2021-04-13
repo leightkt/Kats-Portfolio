@@ -1,0 +1,28 @@
+.climbing {
+    width: 45rem;
+    margin: 5rem 2rem 2rem 2rem;
+    align-self: flex-start;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-text {
+    align-self: center;
+}
+
+.cake { 
+    width: 20rem;
+    margin: 2rem 8rem;
+}
+
+.tech-skills {
+    align-self: flex-end;
+    justify-self: flex-start;
+}
+
+p { 
+    font-size: 1.5rem;
+}

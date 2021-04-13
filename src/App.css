@@ -2,3 +2,7 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
+img {
+  border-radius: 0.5rem;
+}
