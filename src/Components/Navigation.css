@@ -16,3 +16,7 @@ a {
     text-decoration: none;
     margin: 2rem 0 2rem 0;
 }
+
+a:hover {
+    color: gray;
+}
