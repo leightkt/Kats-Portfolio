@@ -5,8 +5,14 @@ nav {
     width: 20rem;
     height: 51rem;
     border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-nav > p {
+a {
     font-size: 4rem;
+    color: black;
+    text-decoration: none;
+    margin: 2rem 0 2rem 0;
 }
