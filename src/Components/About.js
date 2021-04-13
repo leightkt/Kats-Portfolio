@@ -15,8 +15,8 @@ function About () {
                     <p>Away from my desk, I'm a full stack climber, mountaineer, and all around endurance athlete.</p>
                     <p>I thrive outside my comfort zone.</p>
                     <p>I'm also an amateur baker on a lifelong quest for the perfect cinnamon roll.</p>
-                    <img className="cake" src={Cake} alt="top down view of a cake with frosting and sprinkles" />
                 </div>
+                <img className="cake" src={Cake} alt="top down view of a cake with frosting and sprinkles" />
                 <div className="tech-skills">
                     <h2>Technical Skills</h2>
                     <p>

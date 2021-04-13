@@ -1,10 +1,11 @@
 .climbing {
-    width: 45rem;
+    width: 35rem;
     margin: 5rem 2rem 2rem 2rem;
     align-self: flex-start;
 }
 
 .about {
+    margin-top: 3.5rem;
     display: flex;
     flex-direction: row;
 }
@@ -15,7 +16,7 @@
 
 .cake { 
     width: 20rem;
-    margin: 2rem 8rem;
+    margin: 2rem 14rem;
 }
 
 .tech-skills {
