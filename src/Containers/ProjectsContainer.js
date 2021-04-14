@@ -1,4 +1,9 @@
+import Project from '../Components/Project'
 import './ProjectsContainer.css'
+import PourTaste from '../assets/PourTaste.png'
+import Voice2Vibes from '../assets/Voice2Vibes.png'
+import BelayChain from '../assets/BelayChain.png'
+import Portfolio from '../assets/portfolio.png'
 
 const projects = [
     {
@@ -6,8 +11,9 @@ const projects = [
         description: "React single page app to display my projects, resume, and contact information",
         github: "https://github.com/leightkt/Kats-Portfolio",
         demo: "",
-        link: "",
-        tech: "React, React Router"
+        link: "/",
+        tech: "React, React Router",
+        image: Portfolio
     },
     {
         name: "BelayChain",
@@ -15,7 +21,8 @@ const projects = [
         github: "https://github.com/leightkt/belay-chain-blockchain",
         demo: "https://www.youtube.com/watch?v=lMzP-tAFLZk",
         link: "",
-        tech: "React, React Router, Redux, MongoDB, Node, Express, Bcrypt, JWT, Ruby on Rails, postgresQL, and Crypto-js"
+        tech: "React, React Router, Redux, MongoDB, Node, Express, Bcrypt, JWT, Ruby on Rails, postgresQL, and Crypto-js",
+        image: BelayChain
 
     },
     {
@@ -24,7 +31,8 @@ const projects = [
         github: "https://github.com/leightkt/voice2vibes-frontend",
         demo: "https://www.youtube.com/watch?v=wLTmVcyDfi8&t=2s",
         link: "https://voice2vibes.web.app/",
-        tech: "React, React Router, Web Speech API, Web Bluetooth API, Node, Express, Knex, Bcrypt, JWT, postgresQL"
+        tech: "React, React Router, Web Speech API, Web Bluetooth API, Node, Express, Knex, Bcrypt, JWT, postgresQL",
+        image: Voice2Vibes
 
     },
     {
@@ -33,14 +41,21 @@ const projects = [
         github: "https://github.com/leightkt/pour-taste-backend",
         demo: "https://www.youtube.com/watch?v=9kxwHwgc114&t=209s",
         link: "https://pour-taste.web.app/",
-        tech: "Ruby on Rails, JWT, Bcrypt, postgresQL, ActiveRecord, Javascript, HTML, and CSS"
+        tech: "Ruby on Rails, JWT, Bcrypt, postgresQL, ActiveRecord, Javascript, HTML, and CSS",
+        image: PourTaste
 
     }
 ]
 function ProjectsContainer () {
+
+    const displayProjects = () => {
+        return projects.map(project => {
+            return <Project projectData={ project }/>
+        })
+    }
     return(
         <section>
-            <h2>Projects HERE</h2>
+            {displayProjects()}
         </section>
     )
 }
