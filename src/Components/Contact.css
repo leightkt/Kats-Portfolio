@@ -1,0 +1,11 @@
+.contact-container {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.hang-out {
+    width: 75rem;
+    align-self: flex-end;
+    margin: 2rem;
+}
