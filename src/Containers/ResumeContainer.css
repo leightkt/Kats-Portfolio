@@ -24,5 +24,12 @@
     z-index: -1;
     position: absolute;
     right: 5rem;
-    top: 10rem;
+    top: 3rem;
+    text-align: center;
+}
+
+.summary > p {
+    font-size: 2.25rem;
+    margin-bottom: 6rem;
+    padding: 0 2rem;
 }
