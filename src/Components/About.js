@@ -7,7 +7,7 @@ function About () {
     return(
         <section className="about">
             <section className="about-text">
-                <div className="">
+                <div className="deets">
                     <h2>ABOUT</h2>
                     <p>I'm Kat!</p>
                     <p>I'm a Full Stack Software Engineer out of Denver, CO.</p>
@@ -20,9 +20,9 @@ function About () {
                 <div className="tech-skills">
                     <h2>Technical Skills</h2>
                     <p>
-                        Full Stack Web Development, Ruby, Ruby on Rails, Javascript (ES6+), React, Redux, HTML5
-                        CSS, Responsive Design, MongoDB, Node.js, Express, Blockchain, SQL, ActiveRecord, Jest, Web Accessibility,
-                        Project Management 
+                        Full Stack Web Development, Ruby, Ruby on Rails, Javascript (ES6+), React, React Native, Redux, HTML5,
+                        CSS, MongoDB, Node.js, Express, Blockchain, SQL, ActiveRecord, Jest, 
+                        Responsive Design, Web Accessibility, Project Management 
                     </p>
                 </div>
             </section>

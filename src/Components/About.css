@@ -27,3 +27,7 @@
 p { 
     font-size: 1.5rem;
 }
+
+.deets > p {
+    margin: 0rem 0rem 1rem 0rem;
+}
