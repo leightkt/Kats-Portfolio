@@ -15,8 +15,9 @@ a {
     color: black;
     text-decoration: none;
     margin: 2rem 0 2rem 0;
+    font-weight: 600;
 }
 
 a:hover {
-    color: gray;
+    color: #d93ec4;
 }
