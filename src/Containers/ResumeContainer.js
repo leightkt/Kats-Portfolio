@@ -23,7 +23,7 @@ function ResumeContainer () {
             </Document>
             </a>
             <div className="summary">
-                <p>High energy personality with a curiousity for exploring new technologies sparked from a spirited dedication to the mountains.</p>
+                <p>High energy personality with a curiousity for exploring new technology sparked from a spirited dedication to the mountains.</p>
                 <p>I thrive outside my comfort zone.</p>
             </div>
             <img className="mountain" src={mountain} alt="a climber standing on a mountain ridge" />
