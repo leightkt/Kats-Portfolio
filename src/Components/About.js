@@ -11,6 +11,7 @@ function About () {
                     <h2>KAT IN THE STACK</h2>
                     <p>I'm a Full Stack Software Engineer out of Denver, CO.</p>
                     <p>I have a background in project management and Arabic Language study, and a passion for new challenges.</p>
+                    <p>I've implemented lots of DEI initiatives and have a deep interest wroking on in inclusive technology.</p>
                     <p>I'm also a Blockchain tinkerer- a real life crypto-kitty! (Side note- Only my wife can call me Kitty to my face)</p>
                     <p>Away from my desk, I'm a full stack climber, mountaineer, and all around endurance athlete.</p>
                     <p>I'm also an amateur baker on a lifelong quest for the perfect cinnamon roll.</p>
