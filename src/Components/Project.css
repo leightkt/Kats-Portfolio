@@ -5,8 +5,30 @@
 
 .project-card {
     margin: 0.5rem;
+    box-shadow: 2px 2px 5px 2px rgba(65, 63, 61, 0.246);
+    border-radius: 0.5rem;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.project-card:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 5px #d93ec434;
 }
 
 .project-card > p {
     width: 40rem;
+}
+
+.project-link {
+    font-size: 2rem;
+    margin: 1rem 1rem 1rem 0;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.project-image-larger {
+    width: 80rem;
+    margin: 0 2rem 0 0;
 }
