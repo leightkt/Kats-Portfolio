@@ -24,7 +24,7 @@ function Project ({ projectData, setProject, singleDisplay, setSingleDisplay }) 
                     </>
                 :  <img className="project-image" src={ projectData.image } alt={ `${projectData.name} screenshot` }/>
             }
-            <p>{ projectData.description }</p>
+            <p className="description">{ projectData.description }</p>
         </div>
     )
 }
