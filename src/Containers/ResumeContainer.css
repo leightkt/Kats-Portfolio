@@ -7,6 +7,22 @@
 }
 
 .react-pdf__Page__canvas:hover {
-    width: 75% !important;
+    width: 85% !important;
     height: 100% !important;
+}
+
+.mountain {
+    width: 40rem;
+    z-index: -1;
+    position: absolute;
+    right: 5rem;
+    top: 30rem;
+}
+
+.summary {
+    width: 40rem;
+    z-index: -1;
+    position: absolute;
+    right: 5rem;
+    top: 10rem;
 }
