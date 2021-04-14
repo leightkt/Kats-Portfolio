@@ -18,11 +18,27 @@ function About () {
                 <img className="cake" src={Cake} alt="top down view of a cake with frosting and sprinkles" />
                 <div className="tech-skills">
                     <h2>Technical Skills</h2>
-                    <p>
-                        Full Stack Web Development, Ruby, Ruby on Rails, Javascript (ES6+), React, React Native, Redux, HTML5,
-                        CSS, MongoDB, Node.js, Express, Blockchain, SQL, ActiveRecord, Jest, 
-                        Responsive Design, Web Accessibility, Project Management 
-                    </p>
+                    <ul>
+                        <li>Full Stack Web Development</li>
+                        <li>Blockchain</li>
+                        <li>Ruby</li>
+                        <li>Ruby on Rails</li>
+                        <li>ActiveRecord</li>
+                        <li>Javascript (ES6+)</li>
+                        <li>React</li>
+                        <li>React Native</li>
+                        <li>Redux</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>MongoDB</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Jest</li>
+                        <li>SQL</li>
+                        <li>Responsive Design</li>
+                        <li>Web Accessibility</li>
+                        <li>Project Management</li>
+                    </ul>
                 </div>
             </section>
             <img className="climbing" src={Climbing} alt="a climber on a crack climb" />

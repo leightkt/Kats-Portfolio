@@ -20,7 +20,7 @@
 }
 
 .project-link {
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin: 1rem 1rem 1rem 0;
 }
 
@@ -30,5 +30,5 @@ h3 {
 
 .project-image-larger {
     width: 80rem;
-    margin: 0 2rem 0 0;
+    margin: 0 4rem;
 }
