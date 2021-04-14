@@ -5,6 +5,7 @@ import PourTaste from '../assets/PourTaste.png'
 import Voice2Vibes from '../assets/Voice2Vibes.png'
 import BelayChain from '../assets/BelayChain.png'
 import Portfolio from '../assets/portfolio.png'
+import { useRouteMatch } from 'react-router'
 
 const projects = [
     {
@@ -49,22 +50,27 @@ const projects = [
 ]
 
 function ProjectsContainer () {
-    const [project, setProject] = useState("hi")
+    const [project, setProject] = useState(null)
+    const [singleDisplay, setSingleDisplay] = useState(false)
 
 
     const displayProjects = () => {
         return projects.map(project => {
-            return <Project projectData={ project }/>
+            return displayProjectDeets(project)
         })
     }
 
-    const displayProjectDeets = () => {
-        return null
+    const displayProjectDeets = (project) => {
+        return <Project 
+            projectData={ project } 
+            setProject={ setProject } 
+            singleDisplay={ singleDisplay }
+            setSingleDisplay={ setSingleDisplay }/>
     }
 
     return(
         <section className="project-container">
-            { project ? displayProjectDeets() : displayProjects() }
+            { singleDisplay ? displayProjectDeets() : displayProjects(project) }
         </section>
     )
 }
