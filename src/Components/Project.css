@@ -1,0 +1,12 @@
+.project-image {
+    width: 40rem;
+    height: 23rem;
+}
+
+.project-card {
+    margin: 0.5rem;
+}
+
+.project-card > p {
+    width: 40rem;
+}

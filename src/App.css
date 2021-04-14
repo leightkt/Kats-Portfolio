@@ -11,6 +11,7 @@ main {
 
 img {
   border-radius: 0.5rem;
+  box-shadow: 5px 5px 10px 5px rgba(65, 63, 61, 0.246);
 }
 
 h2 {

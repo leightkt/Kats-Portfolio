@@ -1,5 +1,6 @@
 import Project from '../Components/Project'
 import './ProjectsContainer.css'
+import { useState } from 'react'
 import PourTaste from '../assets/PourTaste.png'
 import Voice2Vibes from '../assets/Voice2Vibes.png'
 import BelayChain from '../assets/BelayChain.png'
@@ -46,16 +47,24 @@ const projects = [
 
     }
 ]
+
 function ProjectsContainer () {
+    const [project, setProject] = useState("hi")
+
 
     const displayProjects = () => {
         return projects.map(project => {
             return <Project projectData={ project }/>
         })
     }
+
+    const displayProjectDeets = () => {
+        return null
+    }
+
     return(
-        <section>
-            {displayProjects()}
+        <section className="project-container">
+            { project ? displayProjectDeets() : displayProjects() }
         </section>
     )
 }

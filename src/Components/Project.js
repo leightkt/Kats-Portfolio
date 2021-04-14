@@ -7,7 +7,11 @@ import Portfolio from '../assets/portfolio.png'
 function Project ({ projectData }) {
 
     return (
-        <h3>{ projectData.name }</h3>
+        <div className="project-card">
+            <h3>{ projectData.name }</h3>
+            <img className="project-image" src={ projectData.image } alt={ `${projectData.name} screenshot` }/>
+            <p>{ projectData.description }</p>
+        </div>
     )
 }
 
