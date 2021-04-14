@@ -70,7 +70,7 @@ function ProjectsContainer () {
 
     return(
         <section className="project-container">
-            { singleDisplay ? displayProjectDeets() : displayProjects(project) }
+            { singleDisplay ? displayProjectDeets(project) : displayProjects() }
         </section>
     )
 }
