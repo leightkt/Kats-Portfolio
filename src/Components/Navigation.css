@@ -21,3 +21,10 @@ a {
 a:hover {
     color: #d93ec4;
 }
+
+@media screen and (min-width: 2400px) {
+    nav {
+        position: absolute;
+        left: 10rem;
+    }
+}

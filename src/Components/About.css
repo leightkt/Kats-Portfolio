@@ -8,6 +8,7 @@
     margin-top: 3.5rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .about-text {
@@ -47,4 +48,37 @@
 .deets > p {
     margin: 0rem 0rem 1rem 0rem;
     font-size: 1.75rem;
+}
+
+@media screen and (min-width: 2000px) {
+    .tech-skills {
+        position: relative;
+        margin-top: -35rem;
+        margin-left: 10rem;
+    }
+
+    .climbing {
+        width: 50rem;
+        margin-top: 25rem;
+    }
+    
+    .about {
+        margin-left: 20rem;
+    }
+
+    .about-text {
+        margin-top: -20rem;
+    }
+
+    .deets > p {
+        font-size: 2rem;
+    }
+
+    .tech-skills > ul {
+        font-size: 2rem;
+    }
+
+    .tech-skills > ul > li {
+        width: 20rem;
+    }
 }

@@ -16,3 +16,9 @@
 .greeting-text > p {
     font-size: 5rem;
 }
+
+@media screen and (min-width: 2000px) {
+    .cover-photo {
+        width: 55rem;
+    }
+}
