@@ -37,3 +37,16 @@ h3 {
     width: 80rem !important;
     height: 45rem !important;
 }
+
+@media screen and (max-width: 1775px) {
+    .project-image-larger {
+        width: 60rem;
+        margin: auto;
+    }
+
+    .project-card > div {
+        width: 50rem !important;
+        height: 32rem !important;
+        margin: auto;
+    }
+}
