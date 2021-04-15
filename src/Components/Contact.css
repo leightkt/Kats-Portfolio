@@ -27,3 +27,24 @@
     height: 9rem;
     margin-top: 5rem;
 }
+@media screen and (max-width: 1700px) {
+    .contact-container {
+        justify-content: flex-start;
+    }
+
+    .hang-out {
+        width: 40rem;
+    }
+    
+}
+@media screen and (min-width: 2200px) {
+
+    .contact-container {
+        justify-content: flex-start;
+    }
+
+    .hang-out {
+        width: 100rem;
+        margin: 5rem 10rem;
+    }
+}
