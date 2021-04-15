@@ -16,7 +16,7 @@ function Contact () {
                 <a className="icon-link" href="https://www.linkedin.com/in/kat-leight/"><img className="contact-icon linkedIn" src={linkedIn} alt="linkedIn logo" /></a>
                 <a className="icon-link" href="https://kat-leight.medium.com/"><img className="contact-icon medium" src={medium} alt="medium icon"/></a>
             </div>
-            <img className="hang-out" src={ hangOut } alt="looking down on climber repelling from a mountain with a view 1000s of feet to the valley below" />
+            <img className="hang-out hide-on-small" src={ hangOut } alt="looking down on climber repelling from a mountain with a view 1000s of feet to the valley below" />
         </section>
     )
 }
