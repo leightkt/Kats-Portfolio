@@ -61,3 +61,28 @@ h3 {
         height: 22rem !important;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .project-image {
+        width: 20rem;
+        height: 11.5rem;
+    }
+    
+    .project-card {
+        padding: 1rem;
+    }
+
+    .project-card > p {
+        font-size: 1.5rem;
+    }
+
+    .project-card > div {
+        width: 20rem !important;
+        height: 12.5rem !important;
+    }
+
+    .project-image-larger {
+        width: 20rem;
+    }
+
+}

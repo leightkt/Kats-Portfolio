@@ -4,3 +4,11 @@
     flex-wrap: wrap;
     margin-top: 5rem;
 }
+
+@media screen and (max-width: 1000px) {
+    .project-container {
+        flex-direction: column;
+        margin: 1.5rem;
+    }
+    
+}

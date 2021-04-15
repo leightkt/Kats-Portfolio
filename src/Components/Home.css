@@ -27,7 +27,7 @@
     .home {
         flex-direction: column;
         flex-wrap: wrap;
-        margin: 0 2rem;
+        margin: 1rem 0;
     }
 
     .greeting-text {
@@ -41,7 +41,8 @@
     }
 
     .cover-photo {
-        width: 20rem;
+        width: 22rem;
+        margin-left: 2rem;
     }
     
 }
