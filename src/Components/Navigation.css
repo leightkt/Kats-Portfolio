@@ -3,6 +3,7 @@ nav {
     margin: 5rem 2rem 2rem 2rem;
     border: 1px solid black;
     width: 16rem;
+    max-height: 50rem;
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
