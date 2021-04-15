@@ -93,3 +93,29 @@
     }
     
 }
+
+@media screen and (max-width: 1000px) {
+    .summary {
+        width: 22rem !important;
+        text-align: left;
+    }
+
+    .summary > p {
+        font-size: 1.5rem;
+        margin: 1rem;
+        padding: 0;
+    }
+    
+    .mountain {
+        width: 22rem;
+        margin-top: 1rem;
+    }
+
+    .show-on-small {
+        margin: 2rem 3rem;
+    }
+    
+    .resume-link {
+        margin: 0;
+    }
+}
