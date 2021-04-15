@@ -6,6 +6,10 @@
     width: 100rem;
 }
 
+.react-pdf__Page__canvas {
+    box-shadow: 5px 5px 10px 5px rgba(65, 63, 61, 0.246);
+}
+
 .react-pdf__Page__canvas:hover {
     width: 80% !important;
     height: 90% !important;
@@ -36,6 +40,14 @@
 
 .show-on-small {
     display: none;
+}
+
+@media screen and (min-width: 2200px) {
+    .react-pdf__Page__canvas {
+        width: 52.5rem !important;
+        height: 75rem !important;
+    }
+    
 }
 
 @media screen and (max-width: 1875px) {
