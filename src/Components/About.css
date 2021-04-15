@@ -8,7 +8,6 @@
     margin-top: 3.5rem;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .about-text {
@@ -49,25 +48,32 @@
     margin: 0rem 0rem 1rem 0rem;
     font-size: 1.75rem;
 }
+@media screen and (max-width: 1750px) {
+    .about {
+        flex-wrap: wrap;
+        background-color: red;
+    }
 
+    .tech-skills {
+        position: relative;
+        top: unset;
+        right: unset;
+    }
+
+    .climbing {
+        margin-top: 8rem;
+    }
+    
+}
 @media screen and (min-width: 2000px) {
     .tech-skills {
         position: relative;
-        margin-top: -35rem;
-        margin-left: 10rem;
+        top: unset;
+        right: unset;
     }
 
     .climbing {
         width: 50rem;
-        margin-top: 25rem;
-    }
-    
-    .about {
-        margin-left: 20rem;
-    }
-
-    .about-text {
-        margin-top: -20rem;
     }
 
     .deets > p {
