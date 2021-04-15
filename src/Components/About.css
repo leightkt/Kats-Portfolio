@@ -112,6 +112,10 @@
         margin: 1rem 8rem;
     }
 
+    .tech-skills {
+        width: 22rem;
+    }
+
     .tech-skills > ul {
         font-size: 1.5rem;
     }
