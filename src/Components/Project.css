@@ -50,3 +50,18 @@ h3 {
         margin: auto;
     }
 }
+
+@media screen and (max-width: 1300px) {
+    .project-card {
+        background-color: red;
+    }
+
+    .project-image-larger {
+        width: 35rem;
+    }
+
+    .project-card > div {
+        width: 35rem !important;
+        height: 22rem !important;
+    }
+}
