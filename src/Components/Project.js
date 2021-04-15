@@ -24,10 +24,10 @@ function Project ({ projectData, setProject, singleDisplay, setSingleDisplay }) 
                         <p>Tech Used: { projectData.tech }</p>
                         <a className="project-link" href={ projectData.github }>Github Repo</a>
                         { projectData.link ? <a className="project-link" href={projectData.demo}>App Link</a> : null }
+                        <p className="description">{ projectData.description }</p>
                     </>
                 :  <img className="project-image" src={ projectData.image } alt={ `${projectData.name} screenshot` }/>
             }
-            <p className="description">{ projectData.description }</p>
         </div>
     )
 }

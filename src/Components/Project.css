@@ -15,10 +15,6 @@
     box-shadow: 5px 5px 10px 5px #d93ec434;
 }
 
-.description {
-    width: 40rem;
-}
-
 .project-card > p {
     font-size: 1.75rem;
 }
@@ -36,11 +32,6 @@ h3 {
     width: 80rem;
     margin: 1rem;
 }
-
-/* iframe {
-    display: block;
-    margin: auto;
-} */
 
 .project-card > div {
     width: 80rem !important;
