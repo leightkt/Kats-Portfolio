@@ -7,8 +7,8 @@
 }
 
 .react-pdf__Page__canvas:hover {
-    width: 85% !important;
-    height: 100% !important;
+    width: 80% !important;
+    height: 90% !important;
 }
 
 .mountain {
@@ -32,4 +32,52 @@
     font-size: 2.25rem;
     margin-bottom: 6rem;
     padding: 0 2rem;
+}
+
+.show-on-small {
+    display: none;
+}
+
+@media screen and (max-width: 1875px) {
+    .resume-section {
+        display: flex; 
+        flex-direction: column;   
+    }
+
+    .react-pdf__Page__canvas:hover {
+        width: 40% !important;
+    }
+
+    .summary {
+        position: relative;
+        top: unset;
+        right: unset;
+        margin-left: 2rem;
+    }
+
+    .mountain {
+        position: relative;
+        top: unset;
+        right: unset;
+        margin-left: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+    .hide-on-small {
+        display: none;
+    }
+
+    .mountain {
+        width: 30rem;
+        margin: auto;
+    }
+
+    .show-on-small {
+        display: unset;
+        margin: auto;
+        margin-top: 5rem;
+    }
+    
 }

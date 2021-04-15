@@ -52,10 +52,6 @@ h3 {
 }
 
 @media screen and (max-width: 1300px) {
-    .project-card {
-        background-color: red;
-    }
-
     .project-image-larger {
         width: 35rem;
     }

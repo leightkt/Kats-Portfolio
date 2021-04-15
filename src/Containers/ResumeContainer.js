@@ -15,8 +15,9 @@ function ResumeContainer () {
 
     return (
         <section className="resume-section">
+            <a className="show-on-small" href="https://drive.google.com/file/d/131vSLqNGPMnzb1iJcrwe3sun4MbqK4yj/view?usp=sharing">RESUME</a>
             <a href="https://drive.google.com/file/d/131vSLqNGPMnzb1iJcrwe3sun4MbqK4yj/view?usp=sharing" target="_blank" rel="noreferrer">
-            <Document className="resume"
+            <Document className="resume hide-on-small"
                 file='resume.pdf'
                 onLoadSuccess={onDocumentLoadSuccess}>
                 <Page className="page" pageNumber={ pageNumber } />
