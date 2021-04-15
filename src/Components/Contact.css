@@ -2,10 +2,28 @@
     margin-top: 3.5rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .hang-out {
     width: 75rem;
     align-self: flex-end;
     margin: 2rem;
+}
+
+.contact-icon {
+    height: 11rem;
+    box-shadow: none;
+    margin: 4rem 0rem 1rem 0rem;
+}
+
+.github {
+    height: 15rem;
+    margin-top: 2rem;
+}
+
+.linkedIn {
+    height: 9rem;
+    margin-top: 5rem;
 }

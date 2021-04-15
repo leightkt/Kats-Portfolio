@@ -10,7 +10,7 @@ import { useRouteMatch } from 'react-router'
 const projects = [
     {
         name: "This Portfolio Site",
-        description: "React single page app to display my projects, resume, and contact information",
+        description: "React single page app to display my projects, resume, and contact information.",
         github: "https://github.com/leightkt/Kats-Portfolio",
         demo: "",
         link: "/",
@@ -29,7 +29,7 @@ const projects = [
     },
     {
         name: "Voice2Vibes",
-        description: "Full stack app that allows a user to login interact via voice command with a bluetooth device called the Moxie",
+        description: "Full stack app that allows a user to login interact via voice command with a bluetooth device called the Moxie.",
         github: "https://github.com/leightkt/voice2vibes-frontend",
         demo: "https://www.youtube.com/watch?v=wLTmVcyDfi8&t=2s",
         link: "https://voice2vibes.web.app/",
