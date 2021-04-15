@@ -37,9 +37,10 @@ a:hover {
     nav {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
         width: unset;
         height: unset;
-        min-width: 27rem;
+        margin-top: 1rem;
     }
     
 }

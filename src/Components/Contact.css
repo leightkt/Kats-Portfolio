@@ -46,6 +46,11 @@
         margin: 1rem 2rem;
     }
 
+    .icon-div {
+        width: 20rem;
+        flex-wrap: wrap;
+    }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -126,4 +131,5 @@
     .contact-icon {
         margin-right: 1rem;
     }
+
 }

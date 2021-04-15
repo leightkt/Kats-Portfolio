@@ -22,3 +22,26 @@
         width: 55rem;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .home {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 2rem;
+    }
+
+    .greeting-text {
+        margin: 0 2rem;
+        padding: 0;
+    }
+
+    .greeting-text > p {
+        font-size: 2rem;
+        margin: 0 0 1rem 0;
+    }
+
+    .cover-photo {
+        width: 20rem;
+    }
+    
+}
