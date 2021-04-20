@@ -48,7 +48,7 @@
     margin: 0rem 0rem 1rem 0rem;
     font-size: 1.75rem;
 }
-@media screen and (max-width: 1750px) {
+@media screen and (max-width: 1550px) {
     .about {
         flex-wrap: wrap;
     }
@@ -64,7 +64,7 @@
     }
     
 }
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1600px) {
     .tech-skills {
         position: relative;
         top: unset;
@@ -88,7 +88,7 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     .about {
         flex-direction: column;
         margin-top: 0;

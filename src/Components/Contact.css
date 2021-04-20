@@ -37,7 +37,7 @@
     margin-left: 2rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     h2 {
         margin: 1rem 2rem;
     }
@@ -53,7 +53,7 @@
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     .contact-container {
         flex-direction: column;
     }
@@ -117,7 +117,7 @@
     }
 }
 
-@media screen and (min-width: 2200px) {
+@media screen and (min-width: 2000px) {
 
     .contact-container {
         justify-content: flex-start;

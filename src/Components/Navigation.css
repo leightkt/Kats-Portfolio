@@ -22,13 +22,13 @@ a:hover {
     color: #d93ec4;
 }
 
-@media screen and (min-width: 2400px) {
+@media screen and (min-width: 2200px) {
     nav {
         margin-right: 25rem;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     a {
         font-size: 1.5rem;
         margin: 1rem;

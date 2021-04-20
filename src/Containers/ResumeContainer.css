@@ -42,7 +42,7 @@
     display: none;
 }
 
-@media screen and (min-width: 2200px) {
+@media screen and (min-width: 2000px) {
     .react-pdf__Page__canvas {
         width: 52.5rem !important;
         height: 75rem !important;
@@ -50,7 +50,7 @@
     
 }
 
-@media screen and (max-width: 1875px) {
+@media screen and (max-width: 1675px) {
     .resume-section {
         display: flex; 
         flex-direction: column;   
@@ -95,7 +95,7 @@
     
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     .summary {
         width: 22rem !important;
         text-align: left;

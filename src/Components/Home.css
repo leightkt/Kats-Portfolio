@@ -17,13 +17,13 @@
     font-size: 5rem;
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1600px) {
     .cover-photo {
         width: 55rem;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     .home {
         flex-direction: column;
         flex-wrap: wrap;
