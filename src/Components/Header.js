@@ -2,9 +2,9 @@ import './Header.css'
 
 function Header () {
     return (
-        <section>
-            
-        </section>
+        <header>
+
+        </header>
     )
 }
 
