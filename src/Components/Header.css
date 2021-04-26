@@ -1,0 +1,12 @@
+header {
+    border-bottom: 0.5px solid black;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 2rem;
+}
+
+.cap {
+    font-size: 8rem;
+}
