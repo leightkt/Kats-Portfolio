@@ -49,25 +49,29 @@
         display: none;
     }
 
+    .show-on-small {
+        display: unset;
+    }
+
     .summary {
-        width: 22rem !important;
+        width: unset;
         text-align: left;
+        margin: 2rem;
     }
 
     .summary > p {
-        font-size: 2rem;
+        font-size: 3rem;
         margin: 1rem;
         padding: 0;
     }
     
     .mountain {
-        width: 22rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin: 1rem;
     }
 
     .show-on-small {
         margin: 2rem 3rem;
+        font-size: 3rem;
     }
     
     .resume-link {
