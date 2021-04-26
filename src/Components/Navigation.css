@@ -26,17 +26,20 @@ a:hover {
 
 @media screen and (max-width: 600px) {
     a {
-        font-size: 2rem;
-        margin: 1rem;
+        font-size: 2.25rem;
+        margin: 0.2rem;
     }
 
     nav {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 40rem;
+        width: 12rem;
         height: unset;
+        margin: unset;
         margin-top: 1rem;
+        margin-left: 2rem;
+        padding: 1rem;
         max-height: unset;
         position: unset;
     }

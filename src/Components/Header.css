@@ -13,14 +13,12 @@ h1 {
 
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        margin: 1rem;
     }
 
     .cap {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
-    header {
-        min-width: 50rem;
-    }
 }

@@ -22,6 +22,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         margin: 1rem 0;
+        
     }
 
     .greeting-text {
@@ -30,12 +31,12 @@
     }
 
     .greeting-text > p {
-        font-size: 5rem;
+        font-size: 2.5rem;
         margin: 0 0 1rem 0;
     }
 
     .cover-photo {
-        width: 45rem;
+        width: 15rem;
         margin-left: 2rem;
     }
     

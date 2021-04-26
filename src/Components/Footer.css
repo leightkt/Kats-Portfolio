@@ -3,7 +3,5 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    footer {
-        min-width: 50rem;
-    }
+
 }
