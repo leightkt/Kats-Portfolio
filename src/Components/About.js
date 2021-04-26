@@ -8,7 +8,7 @@ function About () {
         <section className="about">
                 <img className="climbing" src={Climbing} alt="a climber on a crack climb" />
                 <div className="deets">
-                    <h2>KAT IN THE STACK</h2>
+                    <h2>HI! I'm Kat.</h2>
                     <p>I'm a Full Stack Software Engineer out of Denver, CO.</p>
                     <p>I have a background in project management and Arabic Language study, and a passion for new challenges.</p>
                     <p>I've implemented lots of DEI initiatives and have a deep interest wroking on inclusive technology.</p>

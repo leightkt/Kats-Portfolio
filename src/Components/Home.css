@@ -17,13 +17,7 @@
     font-size: 5rem;
 }
 
-@media screen and (min-width: 1600px) {
-    .cover-photo {
-        width: 55rem;
-    }
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .home {
         flex-direction: column;
         flex-wrap: wrap;
@@ -36,12 +30,12 @@
     }
 
     .greeting-text > p {
-        font-size: 2rem;
+        font-size: 5rem;
         margin: 0 0 1rem 0;
     }
 
     .cover-photo {
-        width: 22rem;
+        width: 45rem;
         margin-left: 2rem;
     }
     
