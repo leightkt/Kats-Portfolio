@@ -47,9 +47,14 @@ h3 {
         font-size: 2.5rem;
     }
 
+    .project-image {
+        width: 20rem;
+        height: 11.5rem;
+    }
+
     .project-card > div {
-        width: 40rem !important;
-        height: 24rem !important;
+        width: 20rem !important;
+        height: 12rem !important;
     }
 
     .project-image-larger {
@@ -57,7 +62,7 @@ h3 {
     }
 
     .project-link {
-        font-size: 3rem;
+        font-size: 1.75rem;
     }
 
 }
