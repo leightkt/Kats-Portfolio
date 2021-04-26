@@ -44,12 +44,17 @@
 
 @media screen and (max-width: 600px) {
     .deets {
-        height: 80rem;
+        height: 55rem;
         margin-bottom: 2rem;
+    }
+
+    .deets > h2 {
+        font-size: 2rem;
+        margin: 1rem 0;
     }
     
     .deets > p {
-        font-size: 3rem;
+        font-size: 1.5rem;
         margin: 1rem;
     }
     
@@ -57,23 +62,29 @@
         flex-direction: column;
     }
 
+    .tech-skills > h2 {
+        margin: 1rem 0;
+    }
+
     .tech-skills > ul {
-        font-size: 3rem;
+        font-size: 1.5rem;
         width: 20rem;
         height: 50rem;
     }
 
     .tech-skills > ul > li {
-        width: 20rem;
-        margin: 0rem 1rem;
+        width: 15rem;
+        margin: 0rem;
     }
 
     .climbing {
-        margin: 1rem;
+        margin: 1rem 0;
+        width: 15rem;
     }
 
     .cake {
-        margin: 1rem;
+        margin: 1rem 0;
+        width: 12rem;
     }
 
     .tech-skills {
