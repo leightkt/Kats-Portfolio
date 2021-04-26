@@ -38,51 +38,26 @@ h3 {
     height: 45rem !important;
 }
 
-@media screen and (max-width: 1575px) {
-    .project-image-larger {
-        width: 60rem;
-        margin: auto;
-    }
-
-    .project-card > div {
-        width: 50rem !important;
-        height: 32rem !important;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .project-image-larger {
-        width: 35rem;
-    }
-
-    .project-card > div {
-        width: 35rem !important;
-        height: 22rem !important;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .project-image {
-        width: 20rem;
-        height: 11.5rem;
-    }
-    
+@media screen and (max-width: 600px) {
     .project-card {
         padding: 1rem;
     }
 
     .project-card > p {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .project-card > div {
-        width: 20rem !important;
-        height: 12.5rem !important;
+        width: 40rem !important;
+        height: 24rem !important;
     }
 
     .project-image-larger {
         width: 20rem;
+    }
+
+    .project-link {
+        font-size: 3rem;
     }
 
 }
