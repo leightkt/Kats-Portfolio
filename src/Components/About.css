@@ -1,6 +1,6 @@
 .climbing {
-    width: 35rem;
-    margin: 1rem 2rem 2rem 2rem;
+    width: 40rem;
+    margin: 4rem;
 }
 
 .about {
@@ -8,11 +8,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0rem 2rem;
 }
 
 .cake { 
     width: 20rem;
-    margin: 4rem 14rem;
+    margin: 6rem;
 }
 
 .tech-skills > ul {
@@ -32,7 +33,50 @@
     width: 15rem;
 }
 
+.tech-skills {
+    margin: 2rem;
+}
+
 .deets > p {
     margin: 0rem 0rem 1rem 0rem;
     font-size: 1.75rem;
+}
+
+@media screen and (max-width: 600px) {
+    .deets {
+        height: 80rem;
+        margin-bottom: 2rem;
+    }
+    
+    .deets > p {
+        font-size: 3rem;
+        margin: 1rem;
+    }
+    
+    .about {
+        flex-direction: column;
+    }
+
+    .tech-skills > ul {
+        font-size: 3rem;
+        width: 20rem;
+        height: 50rem;
+    }
+
+    .tech-skills > ul > li {
+        width: 20rem;
+        margin: 0rem 1rem;
+    }
+
+    .climbing {
+        margin: 1rem;
+    }
+
+    .cake {
+        margin: 1rem;
+    }
+
+    .tech-skills {
+        margin: 0;
+    }
 }

@@ -6,7 +6,7 @@ function About () {
 
     return(
         <section className="about">
-            <img className="climbing" src={Climbing} alt="a climber on a crack climb" />
+                <img className="climbing" src={Climbing} alt="a climber on a crack climb" />
                 <div className="deets">
                     <h2>KAT IN THE STACK</h2>
                     <p>I'm a Full Stack Software Engineer out of Denver, CO.</p>

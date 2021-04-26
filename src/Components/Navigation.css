@@ -28,9 +28,9 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     a {
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin: 1rem;
     }
 
@@ -38,9 +38,10 @@ a:hover {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: unset;
+        width: 40rem;
         height: unset;
         margin-top: 1rem;
+        max-height: unset;
     }
     
 }
