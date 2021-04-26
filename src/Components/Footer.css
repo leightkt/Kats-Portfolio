@@ -1,5 +1,5 @@
 footer {
-    border-top: 0.5px solid black
+    border-top: 0.5px solid black;
 }
 
 @media screen and (max-width: 600px) {

@@ -5,8 +5,7 @@ body {
 }
 
 main {
-  display: flex;
-  justify-content: space-between;
+  margin-left: 25rem;
 }
 
 img {
@@ -16,13 +15,6 @@ img {
 
 h2 {
   font-size: 1.75rem;
-}
-
-@media screen and (min-width: 1600px) {
-  main {
-    justify-content: center;
-  }
-
 }
 
 @media screen and (max-width: 600px) {

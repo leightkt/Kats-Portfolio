@@ -8,6 +8,8 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: absolute;
+    left: 0;
 }
 
 a {
@@ -20,12 +22,6 @@ a {
 
 a:hover {
     color: #d93ec4;
-}
-
-@media screen and (min-width: 2200px) {
-    nav {
-        margin-right: 25rem;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -42,6 +38,7 @@ a:hover {
         height: unset;
         margin-top: 1rem;
         max-height: unset;
+        position: unset;
     }
     
 }
