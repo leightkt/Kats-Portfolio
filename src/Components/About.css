@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 600px) {
     .deets {
-        height: 55rem;
+        height: 45rem;
         margin-bottom: 2rem;
     }
 
@@ -55,7 +55,7 @@
     
     .deets > p {
         font-size: 1.5rem;
-        margin: 1rem;
+        margin: 1rem 0rem;
     }
     
     .about {
@@ -63,6 +63,7 @@
     }
 
     .tech-skills > h2 {
+        font-size: 2rem;
         margin: 1rem 0;
     }
 
