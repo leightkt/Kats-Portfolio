@@ -40,20 +40,29 @@
 
 
 @media screen and (max-width: 600px) {
+    .icon-div {
+        margin-left: 2rem;
+    }
 
     .contact-icon {
-        height: 5.5rem;
+        height: 3.5rem;
         margin: 0;
     }
 
     .github {
-        height: 7.5rem;
-        margin-top: 3rem;
+        height: 5.5rem;
+        margin-top: -1rem;
     }
 
     .linkedIn {
-        height: 4.5rem;
-        margin-top: 4.5rem;
+        height: 3.25rem;
+        margin-top: 0rem;
+    }
+
+    .medium {
+        height: 4rem;
+        margin-top: -.4rem;
+        margin-left: 0.5rem;
     }
 
     .contact-container > h2 {
