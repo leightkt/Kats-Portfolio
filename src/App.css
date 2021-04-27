@@ -7,6 +7,7 @@ body {
 
 main {
   margin-left: 35rem;
+  min-height: 60rem;
 }
 
 img {
