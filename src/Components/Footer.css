@@ -1,9 +1,30 @@
 footer {
     border-top: 0.5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.compu-cat {
+    margin: 4rem;
+    width: 20rem;
+}
+
+footer > h1 {
+    margin: 2rem;
 }
 
 @media screen and (max-width: 600px) {
     footer {
         width: 26rem;
+    }
+
+    .compu-cat {
+        width: 10rem;
+    }
+
+    footer > h1 {
+        font-size: 1.5rem;
     }
 }
