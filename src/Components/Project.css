@@ -8,6 +8,7 @@
     box-shadow: 2px 2px 5px 2px rgba(65, 63, 61, 0.246);
     border-radius: 0.5rem;
     padding: 2rem;
+    width: 45rem;
 }
 
 .project-card:hover {
@@ -29,18 +30,14 @@ h3 {
 }
 
 .project-image-larger {
-    width: 80rem;
+    width: 40rem;
     margin: 1rem;
-}
-
-.project-card > div {
-    width: 80rem !important;
-    height: 45rem !important;
 }
 
 @media screen and (max-width: 600px) {
     .project-card {
         padding: 1rem;
+        width: 21rem;
     }
 
     .project-card > p {

@@ -2,10 +2,11 @@
 
 body { 
   font-family: 'Barlow Semi Condensed', sans-serif;
+  width: 100vw;
 }
 
 main {
-  margin-left: 25rem;
+  margin-left: 35rem;
 }
 
 img {
