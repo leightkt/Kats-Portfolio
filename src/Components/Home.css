@@ -1,5 +1,6 @@
 .cover-photo {
-    width: 43rem;
+    height: 35rem;
+    margin: 5rem 1rem 1rem 1rem;
 }
 
 .home {
@@ -9,12 +10,11 @@
 }
 
 .greeting-text {
-    padding: 2rem;
-    margin: 6rem 6rem 2rem -3rem;
+    margin: 4rem 6rem 2rem -3rem;
 }
 
 .greeting-text > p {
-    font-size: 5rem;
+    font-size: 4.5rem;
 }
 
 @media screen and (max-width: 600px) {
